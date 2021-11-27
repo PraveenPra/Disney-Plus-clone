@@ -95,10 +95,17 @@ span{
 
     }
 }
+}
+
+@media(max-width:768px){
+    display:none;
 }`
 
 const UserImage = styled.img`
 height:3em;
 width:3em;
 border-radius:50%;
+@media(max-width:768px){
+    transform:translateX(600%);
+}
 `
