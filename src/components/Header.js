@@ -38,7 +38,7 @@ function Header() {
       
       
             </NavMenu>
-            <UserImage src='logo192.png' />
+            <UserImage src='/images/avatar.jpg' />
         </Nav>
     )
 }
